@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Аревик Антонян](https://up.htmlacademy.ru/htmlcss-individual/2/user/2579015).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгения Подопригора](https://htmlacademy.ru/profile/id2387199).
+* Сайт: [Мой проект Седона](https://arevik-antonyan.github.io/2579015-sedona-2/).
 
 ---
 
