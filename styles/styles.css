@@ -243,6 +243,12 @@ body {
   color: #756157;
 }
 
+.navigation-link:active,
+.navigation-link:focus-visible {
+  color: #756157;
+  opacity: 0.8;
+}
+
 .navigation-link-current::after {
   position: absolute;
   content: "";
@@ -486,7 +492,6 @@ body {
 
 .social-item:hover .social-icon,
 .social-item:focus-visible .social-icon{
-  outline: none;
   fill: #68a2ca;
 }
 
@@ -519,8 +524,9 @@ body {
 }
 
 .social-link {
-  position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 47px;
   height: 40px;
 }
@@ -576,8 +582,9 @@ body {
 }
 
 .breadcrumbs-link {
-  position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 13px;
   height: 21px;
   font-family: inherit;
@@ -993,6 +1000,11 @@ body {
 
 .hotel-card-link:hover {
   opacity: 0.8;
+}
+
+.hotel-card-link:active,
+.hotel-card-link:focus-visible {
+  opacity: 0.6;
 }
 
 .hotel-card-title {
